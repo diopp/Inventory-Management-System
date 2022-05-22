@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+#brand-name {
+    color: rgb(9, 48, 15);
+    font-weight: 900;
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+#logo-brand:hover {
+    animation: tada;
+    animation-duration: 1s;
+    font-size: 60px;
+
+}
+
+#hero{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    color: rgb(9, 48, 15);
+    font-size: 70px;
+    
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.294);
+}
