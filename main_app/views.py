@@ -10,3 +10,12 @@ def home(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def dashboard(request):
+    return render(request, 'dashboard.html')
+
+def login(request):
+    return render(request, 'login.html')
+
+def register(request):
+    return render(request, 'register.html')
