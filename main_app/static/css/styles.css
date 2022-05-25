@@ -32,3 +32,16 @@ border: 1px solid white;
 
 
 }
+
+#form {
+    border: 1px solid black;
+}
+
+button{
+    padding: 14px 40px;
+}
+
+li#login:hover {
+    color: white;
+    background-color:#198754 ;
+}
