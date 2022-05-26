@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+#bgLanding{
+
+background-color: red;
+}
+
+
+
 #brand-name {
     color: rgb(9, 48, 15);
     font-weight: 900;
@@ -30,12 +37,9 @@ footer{
 #login-btn{
 border: 1px solid white;
 
-
 }
 
-#form {
-    border: 1px solid black;
-}
+
 
 button{
     padding: 14px 40px;
@@ -43,5 +47,6 @@ button{
 
 li#login:hover {
     color: white;
-    background-color:#198754 ;
+    
 }
+
