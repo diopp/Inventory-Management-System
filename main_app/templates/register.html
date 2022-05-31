@@ -18,15 +18,25 @@
                     <img src="{% static 'images/register.png' %}" style="width: 100%" alt="My image">
 				</div> 
               
-        <form class="w-50" id="form" style="margin-right: 15%;">
+        <form  class="w-50 shadow p-3 mb-5 bg-white rounded" id="form" 
+        style="margin-right: 15%;margin-top: 7%;    ">
           <h5 class="text-muted text-sm text-center">Login to continue</h5>
           <div class="mb-1">
-            <label for="exampleInputEmail1" class="form-label text-muted">Email address</label>
+            <label for="exampleInputEmail1" class="form-label text-muted">Username:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label text-muted">Password</label>
+            <label for="exampleInputPassword1" class="form-label text-muted">Email:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-muted">Password:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-muted">Password confirmation:</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
           </div>
           <div class="mb-3 form-check">

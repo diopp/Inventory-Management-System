@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-#bgLanding{
+/*QuickReset*/*{margin:0;box-sizing:border-box;}
 
-background-color: red;
+
+body {                /* body - or any parent wrapper */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+
+  }
+
+  html {
+    height: 100%;
+}
+body {
+  background-color:#cccccc;
 }
 
-
+  
+  main {
+    flex: 1;
+  }
 
 #brand-name {
     color: rgb(9, 48, 15);
@@ -30,8 +46,15 @@ background-color: red;
     
 }
 
+
+h6{
+    font-family: 'Quicksand', sans-serif;
+ 
+}
+
 footer{
     background-color: rgba(0, 0, 0, 0.294);
+    padding: 12px;
 }
 
 #login-btn{
@@ -49,4 +72,6 @@ li#login:hover {
     color: white;
     
 }
+
+
 

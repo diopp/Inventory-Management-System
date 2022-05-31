@@ -1,28 +1,33 @@
 {% extends 'base.html'%} {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 </head>
- <body>
+ <body >
    {% block content %} 
 
-    <section id="bgLanding" class=" text-light text-center text-sm-start" style="background-color:#f4f4f4 ;">
-		<div class="">
+    <section  class=" text-light text-center text-sm-start" style="background-color:#f4f4f4 ;">
+
 			<div class="d-sm-flex align-items-center justify-content-between">
 				<div>
-                    <img src="{% static 'images/login.png' %}" style="width: 100%" alt="My image">
+                    <img src="{% static 'images/login.png' %}" style="width: 90%" alt="My image">
 				</div> 
-              
-        <form class="w-50" id="form" style="margin-right: 15%;">
+        
+        <form  class="w-50 shadow p-3 mb-5 bg-white rounded" id="form" 
+        style="margin-right: 15%;margin-top: 7%;    ">
           <h5 class="text-muted text-sm text-center">Login to continue</h5>
+          <p></p>
+       
+        
+     
           <div class="mb-1">
             <label for="exampleInputEmail1" class="form-label text-muted">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" style="width: 280px ;" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             
           </div>
           <div class="mb-3">
@@ -31,12 +36,15 @@
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label text-muted" for="exampleCheck1">Remember</label>
+            <label class="form-check-label text-muted" for="exampleCheck1">Remember me</label>
           </div>
           <button type="submit" class="btn btn-success" style="width: 100%;">Login</button>
+          <p></p>
+          <h6 class="text-muted">Don't have an account? <span class="text-success">Sign Up</span></h6>
         </form>
+      </div>   
         
-			</div>
+	
 		
 		</div>
 	</section>
